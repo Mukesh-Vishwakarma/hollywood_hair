@@ -27,6 +27,8 @@ class AppPages {
   static const allProductDetailsScreen = '/all_product_details_screen';
   static const myOrderScreen = '/my_order_screen';
   static const searchProductScreen = '/search_product_screen';
+  static const tryOn = '/tryOn_screen';
+  static const imagePreview = '/image_preview_screen';
 
 
 }

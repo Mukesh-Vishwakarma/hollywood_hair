@@ -24,6 +24,7 @@ abstract class AppColors {
 
   static const Color primaryColor = Color(0xffEBADB7);
   static const Color primaryColorDark = Color(0xffD0657C);
+  static const Color red84 = Color(0xffF86484);
   static const Color colorCD = Color(0xffCDD3CD);
   static const Color color3D = Color(0xff3B4B3D);
   static const Color color7C = Color(0xffEBADB7);
@@ -43,7 +44,7 @@ abstract class AppColors {
   static const Color color2C = Color(0xffE92C2C);
   static const Color color1E = Color(0xffDC4A1E);
   static const Color blueFC = Color(0xffEEF4FC);
-
+  static const Color gray4D = Color(0xff4D4D4D);
 
   static const Color headingFontColor = Color(0xff262626);
   static const Color searchBorderColor = Color(0xffCCC8C8);

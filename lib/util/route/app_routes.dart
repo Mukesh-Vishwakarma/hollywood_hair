@@ -49,6 +49,9 @@ import 'package:hollywood_hair/screen/product_details/product_details_binding.da
 import 'package:hollywood_hair/screen/product_details/product_details_screen.dart';
 import 'package:hollywood_hair/screen/splash/splash_binding.dart';
 import 'package:hollywood_hair/screen/splash/splash_screen.dart';
+import 'package:hollywood_hair/tryOn_screen/priview_screen.dart';
+import 'package:hollywood_hair/tryOn_screen/tryOn_binder.dart';
+import 'package:hollywood_hair/tryOn_screen/tryOn_screen.dart';
 
 import 'app_pages.dart';
 
@@ -188,7 +191,19 @@ class AppRoutes {
       page: () => SearchProductScreen(),
       binding:SearchProductBinding(),
     ),
+    GetPage(
+        name: AppPages.tryOn,
+        page: () => TryOnScreen(),
+        binding:TryOnBinding(),
+        transition: Transition.downToUp,
+        transitionDuration: Duration(milliseconds: 500)
+    ),
 
+    GetPage(
+      name: AppPages.imagePreview,
+      page: () => PreviewScreen(),
+      binding:TryOnBinding(),
+    ),
 
   ];
 }
